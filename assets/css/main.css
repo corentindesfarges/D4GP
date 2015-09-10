@@ -143,7 +143,7 @@ body.loaded .blog-desc {
 2.1 Logo
 ----------------------------------*/
 #logo {
-  margin: 82px auto 88px;
+  margin: 82px auto 50px;
   position: relative;
   text-align: center;
 }
@@ -154,15 +154,6 @@ body.loaded .blog-desc {
   font-size: 12px;
   position: relative;
   top: 30px;
-}
-#logo:before {
-  color: #ffffff;
-  content: "* * *";
-  display: block;
-  font-size: 10px;
-  position: absolute;
-  top: -40px;
-  width: 100%;
 }
 .blog-title {
   border: none;
@@ -329,13 +320,13 @@ footer.page-wrap > div { margin-left: 170px; }
 ----------------------------------*/
 .post { position: relative; }
 .post > div {
-  background: rgba(0, 3, 24, 0.92);
+  background: rgba(29, 29, 29, 0.92);
   margin: 0 0 60px 170px;
 }
 .post > aside {
   background: #34373b;
   color: #8e9798;
-  padding: 0 0 10px 0;
+  padding: 0 0 0 0;
   position: absolute;
   top: 0;
   width: 130px;
