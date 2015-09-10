@@ -47,7 +47,7 @@ a {
 }
 a:active,
 a:focus,
-a:hover { color: #363636; }
+a:hover { font-weight: bold; color: white;}
 img { max-width: 100%; }
 .page-wrap {
   margin: 0 auto;
