@@ -1,7 +1,11 @@
 <header id="logo" class="page-wrap">
     {{#if @blog.logo}}
       <a id="logo-image" href="{{@blog.url}}">
-        <img src="{{@blog.logo}}" alt="{{@blog.title}} - {{@blog.description}}" />
+        <img src="{{asset "/images/ich.png"}}" alt="{{@blog.title}} - {{@blog.description}}" />
+        <div>
+          <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+          <h2>by Corentin Desfarges</h2>
+        </div>
       </a>
     {{else}}
       <!--<small>Perhaps is it better to be irresponsible and right, than to be responsible and wrong.<br>-- Winston Churchill</small>-->
